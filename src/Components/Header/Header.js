@@ -1,5 +1,5 @@
 import React,{useContext} from 'react';
-import { useHistory } from 'react-router-dom';
+import { Link, useHistory } from 'react-router-dom';
 
 import './Header.css';
 import OlxLogo from '../../assets/OlxLogo';
@@ -39,7 +39,14 @@ function Header() {
           <Arrow></Arrow>
         </div>
         <div className="loginPage">
-          <span>{user ? `Welcome ${user.displayName}` :'Login'}</span>
+        <span onClick={()=>{
+            {if (user == null){
+              history.push('/login')
+            }}
+        }}
+        
+        >{user ? `Welcome ${user.displayName}` :'Login'}</span>
+          
           <hr />
          
         </div>
@@ -52,7 +59,8 @@ function Header() {
           <SellButton></SellButton>
           <div className="sellMenuContent">
             <SellButtonPlus></SellButtonPlus>
-            <span>SELL</span>
+            <Link to='/create'> <span>SELL</span> </Link>
+            
           </div>
         </div>
       </div>
