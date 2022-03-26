@@ -1,3 +1,14 @@
+# Olx-clone React
+OLX-clone using React & FireBase.
+<br/>
+### Languages & tools :
+<img align="left" alt="VS Code" width="26px" src="./Img/visual-studio-code.png">
+<img align="left" alt="React" width="26px" src="./Img/react-js.png">
+<img align="left" alt="google-firebase" width="26px" src="./Img/google-firebase.png">
+<br/><br/>
+
+<img src="./Img/Screenshot.png" width="100%">
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
