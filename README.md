@@ -6,8 +6,9 @@ OLX-clone using React & FireBase.
 <img align="left" alt="React" width="26px" src="./Img/react-js.png">
 <img align="left" alt="google-firebase" width="26px" src="./Img/google-firebase.png">
 <br/><br/>
-
+|
 <img src="./Img/Screenshot.png" width="100%">
+|
 
 # Getting Started with Create React App
 
